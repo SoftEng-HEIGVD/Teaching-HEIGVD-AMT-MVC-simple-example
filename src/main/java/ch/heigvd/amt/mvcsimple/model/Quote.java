@@ -1,7 +1,5 @@
 package ch.heigvd.amt.mvcsimple.model;
 
-import java.util.Objects;
-
 public class Quote {
 
     private String author;

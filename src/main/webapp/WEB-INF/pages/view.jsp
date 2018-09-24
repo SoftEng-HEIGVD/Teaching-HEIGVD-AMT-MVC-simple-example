@@ -11,5 +11,6 @@
         <li>${quote.author} : "${quote.citation}"</li>
       </c:forEach>
     </ul>
+    The filter gave me a color: ${computedByFilter}
   </body>
 </html>
