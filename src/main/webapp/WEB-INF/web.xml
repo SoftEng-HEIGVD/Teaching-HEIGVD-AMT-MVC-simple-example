@@ -8,8 +8,16 @@
     <servlet-name>QuoteServlet</servlet-name>
     <servlet-class>ch.heigvd.amt.mvcsimple.presentation.QuoteServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <servlet-class>ch.heigvd.amt.mvcsimple.presentation.RegistrationServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>QuoteServlet</servlet-name>
     <url-pattern>/quotes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
   </servlet-mapping>
 </web-app>
