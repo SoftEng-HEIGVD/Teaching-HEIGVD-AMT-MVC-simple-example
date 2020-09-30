@@ -1,6 +1,12 @@
 # Teaching-HEIGVD-AMT-MVC-simple-example
 A very simple example to demonstrate the MVC pattern with servlets and JSPs
 
+
+
+## WARNING
+
+1. There is an issue with the latest version of Payara Server, depending on the Java Version that you are using. You might get an error about the keystore if you are subject to this issue. The way to address it is to use JDK 11 both for running the application server AND for running asadmin (which IntelliJ is doing behind the scenes). Make sure to configure your IntelliJ Project and to select JDK 11 as the SDK.
+
 ## Getting started
 
 1. Open the project in IntelliJ
